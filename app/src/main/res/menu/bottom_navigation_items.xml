@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/hospitalsLocationIcon"
+        android:icon="@drawable/location_svg"
+        android:title="@string/hospitals_location"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/bloodIcon"
+        android:icon="@drawable/blood_bag_svg"
+        android:title="@string/blood_donation"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/homeIcon"
+        android:icon="@drawable/home_svg"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/diseaseDetectionIcon"
+        android:icon="@drawable/virus_svg"
+        android:title="@string/disease_detection"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/lungsIcon"
+        android:icon="@drawable/lungs_svg"
+        android:title="@string/lungs_mri"
+        app:showAsAction="ifRoom"/>
+
+</menu>
